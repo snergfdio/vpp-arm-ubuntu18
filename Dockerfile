@@ -165,6 +165,7 @@ RUN apt-get -q update && \
         g++-8 \
         gcc-8 \
         sshpass \
+        xmlstarlet \
         && rm -rf /var/lib/apt/lists/*
 
 #Repoint clang
